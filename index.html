@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atom Cyber Force Interview Results</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bgc.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .result {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .field {
+    flex: 1;
+  }
+  .name, .post, .result-text {
+    animation: flicker 1s infinite alternate;
+  }
+  @keyframes flicker {
+    0% { color: #fff; }
+    50% { color: #ffcc00; }
+    100% { color: #fff; }
+  }
+  .vertical-line {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: calc(33.33% - 1px); /* Adjusted to center the line */
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .horizontal-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: calc(50% - 1px); /* Adjusted to center the line */
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .additional-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+    color: #ddd;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: calc(100% - 20px); /* Adjusted width */
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="result">
+    <h2>Atom Cyber Force Interview Results</h2>
+    <div class="additional-text">If you are fail don't sad<br>Results double checked by EBEE bhai</div>
+    <div class="vertical-line"></div>
+    <div class="horizontal-line"></div>
+    <div class="row">
+      <div class="field name">Name</div>
+      <div class="field post">Post</div>
+      <div class="field result-text">Result</div>
+    </div>
+    <div class="row">
+      <div class="field name">Farman</div>
+      <div class="field post">Video Editing</div>
+      <div class="field result-text">Passed (Excellent)</div>
+    </div>
+    <div class="row">
+      <div class="field name">Farman Ali</div>
+      <div class="field post">Video Editor</div>
+      <div class="field result-text">Passed (Marvelous)</div>
+    </div>
+    <div class="row">
+      <div class="field name">Muhammad Hassan</div>
+      <div class="field post">Blogging Manager</div>
+      <div class="field result-text">Passed (Good)</div>
+    </div>
+    <div class="row">
+      <div class="field name">Sajid Afridi</div>
+      <div class="field post">Social Media Manager 2</div>
+      <div class="field result-text">Passed</div>
+    </div>
+    <div class="row">
+      <div class="field name">Shafiq Ur Rehman</div>
+      <div class="field post">Social Media Manager</div>
+      <div class="field result-text">Passed (Good)</div>
+    </div>
+    <div class="row">
+      <div class="field name">Shahzad Ali</div>
+      <div class="field post">Video Editor</div>
+      <div class="field result-text">Failed (Worst Performance)</div>
+    </div>
+    <div class="row">
+      <div class="field name">Zain Ullah</div>
+      <div class="field post">Tech Manager Programming Side</div>
+      <div class="field result-text">Passed (Awesome)</div>
+    </div>
+    <div class="row">
+      <div class="field name">Zain Ul Abbiden</div>
+      <div class="field post">Group Manager</div>
+      <div class="field result-text">Passed (Awesome)</div>
+    </div>
+  </div>
+</div>
+</body>
+  </html>
